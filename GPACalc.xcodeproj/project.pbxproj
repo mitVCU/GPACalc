@@ -24,6 +24,8 @@
 		41BF98322033C702000F6366 /* grade_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BF982A2033C702000F6366 /* grade_d.png */; };
 		41BF98332033C702000F6366 /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BF982B2033C702000F6366 /* app-icon.png */; };
 		41BF983520354E42000F6366 /* Lemonade Stand D.otf in Resources */ = {isa = PBXBuildFile; fileRef = 41BF983420354E42000F6366 /* Lemonade Stand D.otf */; };
+		41BF983720357653000F6366 /* Assesment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BF983620357653000F6366 /* Assesment.swift */; };
+		41BF983920357778000F6366 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BF983820357778000F6366 /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		41BF982A2033C702000F6366 /* grade_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grade_d.png; sourceTree = "<group>"; };
 		41BF982B2033C702000F6366 /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
 		41BF983420354E42000F6366 /* Lemonade Stand D.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lemonade Stand D.otf"; sourceTree = "<group>"; };
+		41BF983620357653000F6366 /* Assesment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assesment.swift; sourceTree = "<group>"; };
+		41BF983820357778000F6366 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 				41BF982A2033C702000F6366 /* grade_d.png */,
 				41BF98282033C701000F6366 /* grade_f.png */,
 				4175BF692033BE8500CAB070 /* LaunchScreen.storyboard */,
+				41BF983620357653000F6366 /* Assesment.swift */,
+				41BF983820357778000F6366 /* Course.swift */,
 			);
 			path = GPACalc;
 			sourceTree = "<group>";
@@ -299,6 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BF983920357778000F6366 /* Course.swift in Sources */,
+				41BF983720357653000F6366 /* Assesment.swift in Sources */,
 				4175BF632033BE8500CAB070 /* ViewController.swift in Sources */,
 				4175BF612033BE8500CAB070 /* AppDelegate.swift in Sources */,
 			);
