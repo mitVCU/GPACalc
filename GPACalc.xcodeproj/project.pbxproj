@@ -14,6 +14,16 @@
 		4175BF6B2033BE8500CAB070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4175BF692033BE8500CAB070 /* LaunchScreen.storyboard */; };
 		4175BF762033BE8600CAB070 /* GPACalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175BF752033BE8600CAB070 /* GPACalcTests.swift */; };
 		4175BF812033BE8600CAB070 /* GPACalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175BF802033BE8600CAB070 /* GPACalcUITests.swift */; };
+		41BF98232033C459000F6366 /* IHATCS__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 41BF98222033C459000F6366 /* IHATCS__.TTF */; };
+		41BF982C2033C702000F6366 /* chalkboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BF98242033C701000F6366 /* chalkboard.png */; };
+		41BF982D2033C702000F6366 /* grade_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BF98252033C701000F6366 /* grade_a.png */; };
+		41BF982E2033C702000F6366 /* grade_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BF98262033C701000F6366 /* grade_c.png */; };
+		41BF982F2033C702000F6366 /* gpa-calculator-title.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BF98272033C701000F6366 /* gpa-calculator-title.png */; };
+		41BF98302033C702000F6366 /* grade_f.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BF98282033C701000F6366 /* grade_f.png */; };
+		41BF98312033C702000F6366 /* grade_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BF98292033C701000F6366 /* grade_b.png */; };
+		41BF98322033C702000F6366 /* grade_d.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BF982A2033C702000F6366 /* grade_d.png */; };
+		41BF98332033C702000F6366 /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BF982B2033C702000F6366 /* app-icon.png */; };
+		41BF983520354E42000F6366 /* Lemonade Stand D.otf in Resources */ = {isa = PBXBuildFile; fileRef = 41BF983420354E42000F6366 /* Lemonade Stand D.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		4175BF7C2033BE8600CAB070 /* GPACalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPACalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4175BF802033BE8600CAB070 /* GPACalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPACalcUITests.swift; sourceTree = "<group>"; };
 		4175BF822033BE8600CAB070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41BF98222033C459000F6366 /* IHATCS__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = IHATCS__.TTF; sourceTree = "<group>"; };
+		41BF98242033C701000F6366 /* chalkboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chalkboard.png; sourceTree = "<group>"; };
+		41BF98252033C701000F6366 /* grade_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grade_a.png; sourceTree = "<group>"; };
+		41BF98262033C701000F6366 /* grade_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grade_c.png; sourceTree = "<group>"; };
+		41BF98272033C701000F6366 /* gpa-calculator-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gpa-calculator-title.png"; sourceTree = "<group>"; };
+		41BF98282033C701000F6366 /* grade_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grade_f.png; sourceTree = "<group>"; };
+		41BF98292033C701000F6366 /* grade_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grade_b.png; sourceTree = "<group>"; };
+		41BF982A2033C702000F6366 /* grade_d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grade_d.png; sourceTree = "<group>"; };
+		41BF982B2033C702000F6366 /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		41BF983420354E42000F6366 /* Lemonade Stand D.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lemonade Stand D.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +117,22 @@
 		4175BF5F2033BE8500CAB070 /* GPACalc */ = {
 			isa = PBXGroup;
 			children = (
+				41BF98222033C459000F6366 /* IHATCS__.TTF */,
+				4175BF6C2033BE8500CAB070 /* Info.plist */,
 				4175BF602033BE8500CAB070 /* AppDelegate.swift */,
 				4175BF622033BE8500CAB070 /* ViewController.swift */,
 				4175BF642033BE8500CAB070 /* Main.storyboard */,
 				4175BF672033BE8500CAB070 /* Assets.xcassets */,
+				41BF983420354E42000F6366 /* Lemonade Stand D.otf */,
+				41BF982B2033C702000F6366 /* app-icon.png */,
+				41BF98242033C701000F6366 /* chalkboard.png */,
+				41BF98272033C701000F6366 /* gpa-calculator-title.png */,
+				41BF98252033C701000F6366 /* grade_a.png */,
+				41BF98292033C701000F6366 /* grade_b.png */,
+				41BF98262033C701000F6366 /* grade_c.png */,
+				41BF982A2033C702000F6366 /* grade_d.png */,
+				41BF98282033C701000F6366 /* grade_f.png */,
 				4175BF692033BE8500CAB070 /* LaunchScreen.storyboard */,
-				4175BF6C2033BE8500CAB070 /* Info.plist */,
 			);
 			path = GPACalc;
 			sourceTree = "<group>";
@@ -232,9 +262,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41BF982C2033C702000F6366 /* chalkboard.png in Resources */,
+				41BF982F2033C702000F6366 /* gpa-calculator-title.png in Resources */,
+				41BF98332033C702000F6366 /* app-icon.png in Resources */,
+				41BF983520354E42000F6366 /* Lemonade Stand D.otf in Resources */,
+				41BF98302033C702000F6366 /* grade_f.png in Resources */,
 				4175BF6B2033BE8500CAB070 /* LaunchScreen.storyboard in Resources */,
+				41BF98322033C702000F6366 /* grade_d.png in Resources */,
+				41BF98312033C702000F6366 /* grade_b.png in Resources */,
 				4175BF682033BE8500CAB070 /* Assets.xcassets in Resources */,
+				41BF98232033C459000F6366 /* IHATCS__.TTF in Resources */,
+				41BF982E2033C702000F6366 /* grade_c.png in Resources */,
 				4175BF662033BE8500CAB070 /* Main.storyboard in Resources */,
+				41BF982D2033C702000F6366 /* grade_a.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
