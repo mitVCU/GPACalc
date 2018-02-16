@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4159227520378E770010AF5D /* backspace-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4159227320378E770010AF5D /* backspace-arrow.png */; };
+		4159227620378E770010AF5D /* add-circular-button-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4159227420378E770010AF5D /* add-circular-button-2.png */; };
 		4175BF612033BE8500CAB070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175BF602033BE8500CAB070 /* AppDelegate.swift */; };
 		4175BF632033BE8500CAB070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4175BF622033BE8500CAB070 /* ViewController.swift */; };
 		4175BF662033BE8500CAB070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4175BF642033BE8500CAB070 /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4159227320378E770010AF5D /* backspace-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backspace-arrow.png"; path = "Assets.xcassets/backspace-arrow.png"; sourceTree = "<group>"; };
+		4159227420378E770010AF5D /* add-circular-button-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add-circular-button-2.png"; path = "Assets.xcassets/add-circular-button-2.png"; sourceTree = "<group>"; };
 		4175BF5D2033BE8500CAB070 /* GPACalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPACalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4175BF602033BE8500CAB070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4175BF622033BE8500CAB070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 				41BF982B2033C702000F6366 /* app-icon.png */,
 				41BF98242033C701000F6366 /* chalkboard.png */,
 				41BF98272033C701000F6366 /* gpa-calculator-title.png */,
+				4159227420378E770010AF5D /* add-circular-button-2.png */,
+				4159227320378E770010AF5D /* backspace-arrow.png */,
 				41BF98252033C701000F6366 /* grade_a.png */,
 				41BF98292033C701000F6366 /* grade_b.png */,
 				41BF98262033C701000F6366 /* grade_c.png */,
@@ -275,12 +281,14 @@
 				41BF98302033C702000F6366 /* grade_f.png in Resources */,
 				4175BF6B2033BE8500CAB070 /* LaunchScreen.storyboard in Resources */,
 				41BF98322033C702000F6366 /* grade_d.png in Resources */,
+				4159227620378E770010AF5D /* add-circular-button-2.png in Resources */,
 				41BF98312033C702000F6366 /* grade_b.png in Resources */,
 				4175BF682033BE8500CAB070 /* Assets.xcassets in Resources */,
 				41BF98232033C459000F6366 /* IHATCS__.TTF in Resources */,
 				41BF982E2033C702000F6366 /* grade_c.png in Resources */,
 				4175BF662033BE8500CAB070 /* Main.storyboard in Resources */,
 				41BF982D2033C702000F6366 /* grade_a.png in Resources */,
+				4159227520378E770010AF5D /* backspace-arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

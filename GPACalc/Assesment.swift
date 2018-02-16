@@ -9,9 +9,15 @@
 import Foundation
 
 class Assessment {
-    var point: Double = 0.0
-    var max : Double = 0.0
-    var percentage : Double = 0.0
+    var point: Int?
+    var max : Int?
+    var percentage : Int?
+    
+//    init(p: Int, m: Int, perc: Int) {
+//        point = p
+//        max = m
+//        percentage = perc
+//    }
 
 }
 

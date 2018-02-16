@@ -8,12 +8,18 @@
 
 import Foundation
 class Course {
-    let assessment  = Assessment()
-    var credits : Int = 0
-    var courseName : String = ""
-    var courseNum : Int = 0
-
-
+    var credits : Int?
+    var courseName : String?
+    var courseNum : Int?
+    var grade : Double?
+    var letterGrade: Double?
+    
+//    init (N: String, Num: Int, C:Int, G:Int ){
+//        courseName = N
+//        courseNum = Num
+//        credits = C
+//        grade = G
+//    }
 }
 
 
