@@ -72,30 +72,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
         finalPoint.delegate = self
         finalPercent.delegate = self
         deleteCourseNum.delegate = self
-        
-//        let course = Course()
-//        let assessment = Assessment()
-//        let midterm = Assessment()
-//        let final = Assessment()
-//
-//        course.courseName = courseName.text
-//        course.courseNum = courses.count
-//        course.credits = Int(credits.text!)
-//
-//
-//        assessment.max = Int(assignmentMax.text!)
-//        assessment.point = Int(assignmentPoint.text!)
-//        assessment.percentage = Int(assignmentPercent.text!)
-//
-//        midterm.percentage = Int(midtermPercent.text!)
-//        midterm.max = Int(midtermMax.text!)
-//        midterm.point  = Int(midtermPoint.text!)
-//
-//        final.percentage = Int(finalPercent.text!)
-//        final.point = Int(finalPoint.text!)
-//        final.max = Int(finalMax.text!)
-
-
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if courses.isEmpty{
+            deleteCourse.isEnabled = false
+        }
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -176,6 +158,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
                     fPercentage >= 0 &&
                     !courses.contains(where: {$0.courseName == course.courseName}){
                     courses.append(course)
+                    deleteCourse.isEnabled = true
                     if courses.isEmpty == false{
                         let tex = String(format: "%.2f", (gpaCalc(courses: courses)))
                         GPA.text = "GPA: \(tex)"
@@ -194,14 +177,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
                         GPA.text = "GPA:"
                         GPA.textColor = UIColor.white
                     }
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
                 }
                 else if courses.count > 4{
                     createAlert(title: "WARNING", message: "Too Many Courses Please Delete 1 or More Courses")
@@ -242,7 +217,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             if courses.isEmpty{
                 GPA.text = "GPA:"
                 GPA.textColor = UIColor.white
-                print("im here")
+                deleteCourse.isEnabled = false
             }
             else{
                 let tex = String(format: "%.2f", (gpaCalc(courses: courses)))
@@ -368,9 +343,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         var sum : Double = 0
         var totCredits: Int = 0
         for index in courses{
-            print("calc called")
-            print(index.credits)
-            print(index.letterGrade)
             sum += (Double (index.credits!) * index.letterGrade!)
             totCredits += index.credits!
         }
